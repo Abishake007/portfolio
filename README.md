@@ -2,8 +2,11 @@
 
 Welcome to my personal developer portfolio. This website showcases my projects, skills, and experience as a software developer.
 
-🌐 **Live Portfolio:**  
-https://abishake-portfolio.vercel.app
+## Portfolio Preview
+
+[![Portfolio Preview](public/images/portfolio-preview.png)](https://abishake-portfolio.vercel.app)
+
+Click the image to visit the live portfolio.
 
 ---
 
