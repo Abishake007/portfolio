@@ -34,9 +34,9 @@ const social: Social = [
     essential: true,
   },
   {
-    name: "LeetCode",
+    name: "GeeksforGeeks",
     icon: "leetcode",
-    link: "https://leetcode.com/u/Abishake007/",
+    link: "https://www.geeksforgeeks.org/profile/abishakqy6o?tab=activity",
     essential: true,
   },
   {
