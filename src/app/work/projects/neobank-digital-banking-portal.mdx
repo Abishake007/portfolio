@@ -10,40 +10,65 @@ github: "https://github.com/Abishake007/neobank-digital-banking-portal"
 live: "https://neobank-digital-banking-portal.vercel.app/"  
 ---
 
+# NeoBank – Digital Banking Portal
+
+NeoBank is a simple and secure full-stack website that acts like a real-world digital bank. It allows users to manage their money, track their spending, and save for future goals through a clean, modern interface.
+
 ## Overview
 
-Neobank is a digital banking portal that simulates real-world banking operations including account dashboard, transaction tracking, money transfers, admin management, and secure authentication workflows.
-
-The project focuses on clean architecture, responsive design, and structured frontend development using Angular.
+**Smart Tools:**
+- **Virtual Pockets**: Create separate "pockets" to stash money away for specific goals (like a new laptop or travel). This keeps your savings safe from your everyday spending.
+- **Detailed Reports**: View your monthly activity in a clean format to see where your money is going.
+- **Smart Analytics**: Visual charts that show your spending patterns and account growth over time.
 
 ---
 
 ## Key Features
 
-- Secure login authentication
-- Transaction dashboard
-- Monthly financial reports
-- Send money functionality
-- Admin management panel
-- Fully responsive UI
-- Component-based Angular architecture
+### Security and Access Control
+- **JWT Authentication**: Robust stateless security using JSON Web Tokens with access & refresh tokens
+- **Role-Based Access Control (RBAC)**: Distinct workflows and permissions for User and Admin roles
+- **Spring Security Integration**: Secured API endpoints with user authentication
+- **Protected Routes**: Angular route guards prevent unauthorized access to sensitive pages
+
+### Banking Operations
+- **Real-Time Dashboard**: Instant access to available and locked balances with automated UI synchronization
+- **Virtual Pockets**: Create and manage targeted savings goals with automated fund stashing and claim functionality
+  - Users can create multiple savings goals
+  - Lock money away for specific purposes (EMI, travel, laptop, etc.)
+  - Claim funds back to available balance when needed
+- **Fund Transfers**: Secure peer-to-peer transfers between accounts with category-based tracking
+- **Transaction Categorization**: Organize transactions by category for better financial insights
+- **Data Analytics**: Interactive spending breakdowns and financial summaries powered by Chart.js
+
+### Reporting & Analytics
+- **Monthly Financial Reports**: Detailed breakdown of spending by category and time period
+- **Account Summary Reports**: Overview of account activity and balance trends
+- **Visual Charts**: Interactive charts displaying spending patterns and savings progress
+- **Transaction History**: Complete transaction log with filters and search
+
+### User Interface
+- **Angular 19 (Latest)**: Built using the latest framework standards with Standalone Components and Signals
+- **Adaptive Theming**: Full support for professional Dark Mode and Light Mode with persistent state management
+- **Responsive Design**: Optimized for mobile, tablet, and desktop environments using Bootstrap 5
+- **Bootstrap Icons**: Icon library for consistent and modern UI elements
+- **Real-Time Loading States**: Visual feedback during API calls
+
+###  Admin Features
+- **User Management Dashboard**: View and manage all users in the system
+- **User Status Control**: Activate/deactivate user accounts
+- **System Monitoring**: Admin panel for system oversight
+
 
 ---
 
 ## Tech Stack
 
-# Backend
-- Java
-- Spring Boot
-- Spring Security
-- JWT (JSON Web Token)
-- MySQL
-- RESTful APIs
-# Frontend
-- Angular (Standalone Components)
-- TypeScript
-- Bootstrap 5
-- Bootstrap Icons
+- **Frontend** - Angular 19.2.0, TypeScript 5.7.2, Bootstrap 5.3.8, Chart.js 4.5.1, ng2-charts 10.0.0 
+- **Backend** - Java 21, Spring Boot 4.0.0, Spring Security, JWT (jjwt 0.11.5), Lombok, Spring Data JPA 
+- **Database** - TiDB Cloud (MySQL-compatible Distributed SQL) 
+- **DevOps** - Docker, Vercel (Frontend), Render (Backend API) 
+- **Testing** - Jasmine, Karma (Frontend); JUnit 5 (Backend) 
 
 ---
 

@@ -2,47 +2,75 @@
 title: "ECOM-WEB – E-Commerce Application"
 description: "A modern e-commerce web application."
 date: "2026-01-20"
-cover: "/images/projects/ecom-web/products.png"
+cover: "/images/projects/ecom-web/homepage.png"
 images:
-  - "/images/projects/ecom-web/products.png"
+  - "/images/projects/ecom-web/homepage.png"
 ---
+
+# ECOM-WEB – Full Stack E-Commerce Application
+
+A comprehensive e-commerce web application built with React + Vite (frontend) and Spring Boot (backend). Includes product management, user authentication with JWT, shopping cart, wishlists, order processing, and Stripe payment integration.
 
 ## Overview
 
-ECOM-WEB is a responsive e-commerce web application that enables users to browse products, manage their shopping cart, and simulate an online checkout workflow.
-
-The project focuses on clean UI structure, state management using local storage, and building reusable React components.
-
+- **Frontend**: React with Vite, Bootstrap styling
+- **Backend**: Spring Boot REST APIs with JWT security and role-based access control
+- **Database**: MySQL
+- **Payment**: Stripe integration
+- **Authentication**: JWT token-based with RBAC
 ---
 
 ### Key Features
 
-- Product listing page
-- Add to cart functionality
-- Remove and update cart items
-- Checkout simulation
-- Dynamic price calculation
-- Persistent cart using Local Storage
-- Fully responsive UI
+**User Features**
+- User registration and authentication
+- Browse and search products with category filtering
+- Product details with image gallery
+- Shopping cart with quantity management
+- Persistent cart storage
+- Wishlist functionality
+- Order history and tracking
+
+**Admin Features**
+- Admin dashboard with control panel
+- Product inventory management (CRUD)
+- Multi-image product uploads
+- Stock quantity tracking
+- User management
+- Order management and tracking
+
+**Checkout & Payment**
+- Secure checkout process
+- Stripe payment integration
+- Address validation and collection
+- Promo code support
+- Order confirmation and email notifications
+
+**Security**
+- JWT token-based authentication
+- BCrypt password encoding
+- Role-based access control (ADMIN, MODERATOR, USER)
+- Protected API endpoints
+- Email and username validation
 
 ---
 
 ## Tech Stack
 
-### Frontend
-- React(vite)
-- Bootstrap
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+**Frontend**: React 18+, Vite, Bootstrap, Axios, Stripe.js
 
-### Backend
-- Java
-- Spring Boot
-- REST API
-- Maven
-### Database
-- MySQL
+**Backend**: Java 11+, Spring Boot, Spring Security (JWT), Spring Data JPA, Hibernate, Maven
+
+**Database**: MySQL 5.7+
+
+## Setup Instructions
+
+### Prerequisites
+- Java 11 or higher
+- Node.js 14+ and npm
+- MySQL Server
+- Git
+
 ---
 
 ## Screenshots
@@ -59,10 +87,14 @@ The project focuses on clean UI structure, state management using local storage,
 >
 
 {[
-  "/images/projects/ecom-web/products.png",
-  "/images/projects/ecom-web/cart.png",
-  "/images/projects/ecom-web/update.png",
-  "/images/projects/ecom-web/checkout.png"
+  "/images/projects/ecom-web/homepage.png",
+  "/images/projects/ecom-web/login.png",
+  "/images/projects/ecom-web/cartpage.png",
+  "/images/projects/ecom-web/wishlist.png",
+  "/images/projects/ecom-web/payment.png",
+  "/images/projects/ecom-web/addproduct.png",
+  "/images/projects/ecom-web/adminproduct.png",
+  "/images/projects/ecom-web/adminusers.png"
 ].map((src) => (
   <div
     key={src}
