@@ -62,7 +62,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Abishake, a final-year Computer Science student specializing in 
+      I'm Abishake, Computer Science Graduate specializing in 
       full-stack development with Java, Spring Boot, React, and Angular.
       <br /><br />
       I build secure backend systems, design RESTful APIs, and develop 
@@ -94,7 +94,7 @@ const about: About = {
     title: "Professional Summary",
     description: (
       <>
-        I am a final-year Computer Science and Engineering student specializing in Full-Stack
+        I am a Computer Science and Engineering  Graduate specializing in Full-Stack
         Web Development. I have hands-on experience building scalable web applications using
         React, Angular, Java, and Spring Boot. I focus on designing clean architectures,
         developing RESTful APIs, and integrating databases like MySQL and MongoDB.
@@ -116,7 +116,7 @@ const about: About = {
     institutions: [
       {
         name: "Paavai College of Engineering",
-        description: <>B.E – Computer Science and Engineering (CGPA: 7.6 / 10)</>,
+        description: <>B.E – Computer Science and Engineering (CGPA: 7.92 / 10)</>,
       },
       {
         name: "Findlay Higher Secondary School",
@@ -169,7 +169,6 @@ const about: About = {
           { name: "MongoDB", icon: "mongodb" },
           { name: "Git", icon: "github" },
           { name: "Postman", icon: "code" },
-          { name: "Firebase", icon: "cloud" },
         ],
         images: [],
       },
